@@ -1,11 +1,11 @@
-# R Programming A-Z 📊  
+# R Programming A-Z   
 
-🎉 **Welcome to the R Programming A-Z repository!**  
+ **Welcome to the R Programming A-Z repository!**  
 This repository contains a collection of **R scripts** and **projects** to help you master R for data manipulation, visualization, and analytics.  
 
 ---
 
-## 📚 **What You Will Learn**  
+##  **What You Will Learn**  
 
 - **Core Programming Principles**: Variables, loops, conditionals, and logical operations.  
 - **R Fundamentals**: Vectors, matrix operations, and functions.  
@@ -15,9 +15,9 @@ This repository contains a collection of **R scripts** and **projects** to help 
 
 ---
 
-## 📂 **Repository Structure**  
+##  **Repository Structure**  
 
-### **Section 1: Core Programming Principles 🧩**  
+### **Section 1: Core Programming Principles **  
 Learn the basics of R programming, including variables, loops, and logical operations.
 
 **Files:**  
@@ -35,7 +35,7 @@ Learn the basics of R programming, including variables, loops, and logical opera
 
 ---
 
-### **Section 2: Fundamentals of R 🚀**  
+### **Section 2: Fundamentals of R **  
 Explore vectors, square brackets for subsetting, and functions in R.
 
 **Files:**  
@@ -48,7 +48,7 @@ Explore vectors, square brackets for subsetting, and functions in R.
 
 ---
 
-### **Section 3: Matrices and Advanced Operations 🧮**  
+### **Section 3: Matrices and Advanced Operations **  
 Work with matrices, naming dimensions, and performing operations.
 
 **Files:**  
@@ -63,7 +63,7 @@ Work with matrices, naming dimensions, and performing operations.
 
 ---
 
-### **Section 4: Data Frames and Analysis 📊**  
+### **Section 4: Data Frames and Analysis **  
 Learn to work with data frames for data analysis and manipulation.
 
 **Files:**  
@@ -82,7 +82,7 @@ Learn to work with data frames for data analysis and manipulation.
 
 ---
 
-### **Section 5: Advanced Visualization with ggplot2 📈**  
+### **Section 5: Advanced Visualization with ggplot2 **  
 Master advanced visualization techniques using **ggplot2**.
 
 **Files:**  
@@ -101,7 +101,7 @@ Master advanced visualization techniques using **ggplot2**.
 
 ---
 
-## 🚀 **How to Use**  
+##  **How to Use**  
 
 1. Clone this repository to your local machine:  
    ```bash
@@ -109,9 +109,9 @@ Master advanced visualization techniques using **ggplot2**.
    cd R-For-DataScience  
 
 
- ##   📧 *Feedback*
-- ### If you have any suggestions, questions, or feedback, feel free to open an issue. Let’s grow and learn together! 🚀
+ ##    *Feedback*
+- ### If you have any suggestions, questions, or feedback, feel free to open an issue. Let’s grow and learn together! 
 
-## 👨‍💻 *Author* 
+## ‍ *Author* 
 - ### Evgenii Matveev 
 - ### Data Analyst | R Programming Enthusiast **
