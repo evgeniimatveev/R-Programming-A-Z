@@ -1,0 +1,18 @@
+# --- GitHub Linguist: treat R as main language ---
+
+# R scripts
+*.R   linguist-detectable=true linguist-language=R
+*.r   linguist-detectable=true linguist-language=R
+
+# R Markdown
+*.Rmd linguist-detectable=true linguist-language=R
+*.rmd linguist-detectable=true linguist-language=R
+
+# Optional: SQL, if you ever add it
+*.sql linguist-detectable=true linguist-language=SQL
+
+# Do not count data files as a programming language
+*.csv  linguist-detectable=false
+*.tsv  linguist-detectable=false
+*.xls  linguist-detectable=false
+*.xlsx linguist-detectable=false
