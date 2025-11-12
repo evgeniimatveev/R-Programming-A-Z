@@ -1,3 +1,13 @@
+<div align="left">
+  <img alt="R" src="https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white">
+  <img alt="Data Analysis" src="https://img.shields.io/badge/focus-Data%20Analysis%20%26%20Visualization-ff69b4">
+  <img alt="ggplot2" src="https://img.shields.io/badge/viz-ggplot2-1f77b4">
+  <img alt="RStudio" src="https://img.shields.io/badge/IDE-RStudio-75AADB">
+  <img alt="Course" src="https://img.shields.io/badge/course-R%20Programming%20A–Z-0A84FF">
+</div>
+
+
+
 # R Programming A-Z 📊  
 
 🎉 **Welcome to the R Programming A-Z repository!**  
