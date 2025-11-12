@@ -6,16 +6,14 @@
   <img alt="Course" src="https://img.shields.io/badge/course-R%20Programming%20A–Z-0A84FF">
 </div>
 
+# R Programming A–Z 📊  
 
-
-# R Programming A-Z 📊  
-
-🎉 **Welcome to the R Programming A-Z repository!**  
+🎉 **Welcome to the R Programming A–Z repository!**  
 This repository contains a collection of **R scripts** and **projects** to help you master R for data manipulation, visualization, and analytics.  
 
 ---
 
-## 📚 **What You Will Learn**  
+## 📚 What You Will Learn  
 
 - **Core Programming Principles**: Variables, loops, conditionals, and logical operations.  
 - **R Fundamentals**: Vectors, matrix operations, and functions.  
@@ -25,9 +23,9 @@ This repository contains a collection of **R scripts** and **projects** to help 
 
 ---
 
-## 📂 **Repository Structure**  
+## 📂 Repository Structure  
 
-### **Section 1: Core Programming Principles 🧩**  
+### Section 1: Core Programming Principles 🧩  
 Learn the basics of R programming, including variables, loops, and logical operations.
 
 **Files:**  
@@ -41,7 +39,7 @@ Learn the basics of R programming, including variables, loops, and logical opera
 
 ---
 
-### **Section 2: Fundamentals of R 🚀**  
+### Section 2: Fundamentals of R 🚀  
 Explore vectors, square brackets for subsetting, and functions in R.
 
 **Files:**  
@@ -54,7 +52,7 @@ Explore vectors, square brackets for subsetting, and functions in R.
 
 ---
 
-### **Section 3: Matrices and Advanced Operations 🧮**  
+### Section 3: Matrices and Advanced Operations 🧮  
 Work with matrices, naming dimensions, and performing operations.
 
 **Files:**  
@@ -67,7 +65,7 @@ Work with matrices, naming dimensions, and performing operations.
 
 ---
 
-### **Section 4: Data Frames and Analysis 📊**  
+### Section 4: Data Frames and Analysis 📊  
 Learn to work with data frames for data analysis and manipulation.
 
 **Files:**  
@@ -76,14 +74,14 @@ Learn to work with data frames for data analysis and manipulation.
 - `Building_Data_Frames_in_R (S4).R` — Creating and building data frames.  
 - `Merging_Data_Frames_in_R (S4).R` — Merging and combining data frames.  
 - `Data_Import_and_Exploration_in_R (S4).R` — Importing and exploring datasets.  
-- `CountryRegionVectors (S4).R` — Handling country-region datasets.  
+- `CountryRegionVectors (S4).R` — Handling country–region datasets.  
 - `Demographic-Data (S4).R` — Analyzing demographic data.  
 - `Visualization_in_R_with_qplot() (S4).R` — Creating quick plots using `qplot()`.  
 - `Advanced_Visualization_With_qplot_in_R (S4).R` — Advanced customizations for `qplot()`.  
 
 ---
 
-### **Section 5: Advanced Visualization with ggplot2 📈**  
+### Section 5: Advanced Visualization with ggplot2 📈  
 Master advanced visualization techniques using **ggplot2**.
 
 **Files:**  
@@ -100,17 +98,23 @@ Master advanced visualization techniques using **ggplot2**.
 
 ---
 
-## 🚀 **How to Use**  
+## 🚀 How to Use  
 
 1. Clone this repository to your local machine:  
+
    ```bash
-   git clone https://github.com/evgeniimatveev/R-Programming-A-Z.git  
+   git clone https://github.com/evgeniimatveev/R-Programming-A-Z.git
    cd R-Programming-A-Z
+   ```
+   
+- Open the project in RStudio or your preferred IDE.
 
+- Run the scripts section by section to practice and explore the concepts.
 
- ##   📧 *Feedback*
-- ### If you have any suggestions, questions, or feedback, feel free to open an issue. Let’s grow and learn together! 🚀
+## 📧 Feedback
+- If you have any suggestions, questions, or feedback, feel free to open an Issue.
+- Let’s grow and learn together! 🚀
 
-## 👨‍💻 *Author* 
-- ### Evgenii Matveev 
-- ### Data Analyst | R Programming Enthusiast **
+## 👨‍💻 Author
+- **Evgenii Matveev**
+- **Data Analyst** | **R Programming Enthusiast**
