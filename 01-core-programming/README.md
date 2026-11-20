@@ -2,6 +2,8 @@
 
 Variables, data types, logical operators, conditionals and loops.
 
+> 🖐️ [`while-loop.R`](while-loop.R) ends with an interactive guessing game that reads input via `readline()`. Run it in the RStudio console; under `Rscript` it will hang.
+
 | # | Script | Topic |
 |:-:|--------|-------|
 | 1 | [`using-the-console.R`](using-the-console.R) | Using the console in RStudio |
@@ -10,7 +12,7 @@ Variables, data types, logical operators, conditionals and loops.
 | 4 | [`practice-with-variables.R`](practice-with-variables.R) | Exercise: assigning variables |
 | 5 | [`logical-values.R`](logical-values.R) | Comparison and logical operators |
 | 6 | [`conditional-if-else.R`](conditional-if-else.R) | Conditional statements: `if`, `else if`, `else` |
-| 7 | [`while-loop.R`](while-loop.R) | Understanding the `while` loop |
+| 7 | [`while-loop.R`](while-loop.R) | Understanding the `while` loop (🖐️ interactive: uses `readline()`) |
 | 8 | [`practice-while-and-for-loops.R`](practice-while-and-for-loops.R) | Loops: `while` and `for` |
 | 9 | [`law-of-large-numbers.R`](law-of-large-numbers.R) | Law of large numbers, simulated |
 | 10 | [`extra-rnorm.R`](extra-rnorm.R) | Random numbers with `rnorm()` |

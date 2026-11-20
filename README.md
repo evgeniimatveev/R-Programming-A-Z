@@ -189,7 +189,7 @@ cd R-Programming-A-Z
 ```
 
 1. Open **`R-Programming-A-Z.Rproj`** in RStudio. It sets the working directory to the repo root, which the scripts rely on (e.g. `data/movie-ratings.csv`).
-2. Install the package once: `install.packages("ggplot2")`
+2. Install the packages once: `install.packages(c("ggplot2", "dplyr", "reshape2"))` (`dplyr` and `reshape2` are only needed by `03-matrices/ggplot2-advanced-customizations.R`).
 3. Work through the sections in order, running each script top to bottom.
 
 ---
@@ -212,12 +212,20 @@ Scripts are teaching material: CI verifies that they parse, it does not execute 
 
 - Section 4 scripts load their dataset with `file.choose()`. The course's demographic CSV is **not included** here.
 - `qplot()` is deprecated in recent ggplot2 releases but kept because it is part of the course.
+- `01-core-programming/while-loop.R` is **interactive**: it asks for input with `readline()`, so run it in the RStudio console (it hangs under `Rscript`).
+- `03-matrices/ggplot2-advanced-customizations.R` is **not standalone**: it uses the `FieldGoals` matrix created in `basketball-data.R`, so run that script first in the same session.
+
+---
+
+## Credits
+
+This repository holds my annotated study scripts for the **R Programming A–Z** course by Kirill Eremenko ([Super Data Science](https://www.superdatascience.com)). The course's lecture structure, exercises and datasets are the basis for these scripts; a few files (for example `04-data-frames/country-region-vectors.R` and `03-matrices/basketball-data.R`) contain material provided by the course. All rights to the original course content remain with its author.
 
 ---
 
 ## Tech stack
 
-`R` · `RStudio` · `ggplot2` · `GitHub Actions`
+`R` · `RStudio` · `ggplot2` · `dplyr` · `reshape2` · `GitHub Actions`
 
 ---
 
