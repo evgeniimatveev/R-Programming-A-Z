@@ -3,8 +3,6 @@ name: R script smoke run (manual)
 # Manual only: click "Run workflow" in the Actions tab. No push / PR / schedule triggers.
 on:
   workflow_dispatch:
-  push:
-    branches: [ci/manual-script-run]   # TEMPORARY: test before merge, removed afterwards
 
 permissions:
   contents: read
