@@ -19,6 +19,10 @@
 # ========================================================
 library(ggplot2)
 
+# --- Setup (added so this script runs on its own): load the data and name the columns
+movies <- read.csv("data/movie-ratings.csv")
+colnames(movies) <- c("Film", "Genre", "CriticRating", "AudienceRating", "BudgetMillion", "Year")
+
 # ========================================================
 # Part 1: Creating a Histogram 📈
 # ========================================================
