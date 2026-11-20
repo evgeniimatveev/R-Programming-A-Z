@@ -1,0 +1,42 @@
+name: R syntax check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Repo hygiene (no spaces in names, no absolute local paths)
+        run: |
+          set -e
+          bad=$(git ls-files | grep -E ' ' || true)
+          if [ -n "$bad" ]; then echo "::error::Spaces in file names:"; echo "$bad"; exit 1; fi
+          paths=$(git grep -n -E '[A-Za-z]:/Users/|/home/[a-z]+/' -- '*.R' || true)
+          if [ -n "$paths" ]; then echo "::error::Absolute local paths found:"; echo "$paths"; exit 1; fi
+
+      - name: Parse every R script
+        shell: Rscript {0}
+        run: |
+          files <- list.files(".", pattern = "[.]R$", recursive = TRUE, full.names = TRUE)
+          failed <- character()
+          for (f in files) {
+            res <- try(parse(f, encoding = "UTF-8"), silent = TRUE)
+            if (inherits(res, "try-error")) {
+              failed <- c(failed, f)
+              cat("::error file=", f, "::", conditionMessage(attr(res, "condition")), "\n", sep = "")
+            }
+          }
+          cat(sprintf("Parsed %d scripts, %d failed\n", length(files), length(failed)))
+          if (length(failed)) quit(status = 1)

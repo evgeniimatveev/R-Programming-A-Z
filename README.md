@@ -1,120 +1,224 @@
-<div align="left">
-  <img alt="R" src="https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white">
-  <img alt="Data Analysis" src="https://img.shields.io/badge/focus-Data%20Analysis%20%26%20Visualization-ff69b4">
-  <img alt="ggplot2" src="https://img.shields.io/badge/viz-ggplot2-1f77b4">
-  <img alt="RStudio" src="https://img.shields.io/badge/IDE-RStudio-75AADB">
-  <img alt="Course" src="https://img.shields.io/badge/course-R%20Programming%20A–Z-0A84FF">
-</div>
+![R Programming A-Z Banner](assets/banner.svg)
 
-# R Programming A–Z 📊  
+<p align="center">
+  <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/R-4.x-276DC3?style=flat-square&logo=r&logoColor=white"/></a>
+  <a href="https://ggplot2.tidyverse.org/"><img src="https://img.shields.io/badge/ggplot2-visualization-1f77b4?style=flat-square"/></a>
+  <a href="https://posit.co/products/open-source/rstudio/"><img src="https://img.shields.io/badge/RStudio-project-75AADB?style=flat-square&logo=rstudioide&logoColor=white"/></a>
+  <a href=".github/workflows/r-check.yml"><img src="https://img.shields.io/badge/GitHub_Actions-syntax_check-2088FF?style=flat-square&logo=githubactions&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/scripts-45-2ea44f?style=flat-square"/>
+  <img src="https://img.shields.io/badge/sections-5-orange?style=flat-square"/>
+</p>
 
-🎉 **Welcome to the R Programming A–Z repository!**  
-This repository contains a collection of **R scripts** and **projects** to help you master R for data manipulation, visualization, and analytics.  
+A hands-on R course in **45 commented lecture scripts**, from your first variable to a full **ggplot2** workflow on a real movie-ratings dataset. Each script is a self-contained lesson: explanation, runnable examples, and key takeaways in the comments.
 
----
-
-## 📚 What You Will Learn  
-
-- **Core Programming Principles**: Variables, loops, conditionals, and logical operations.  
-- **R Fundamentals**: Vectors, matrix operations, and functions.  
-- **Data Frames**: Importing, filtering, merging, and analyzing data.  
-- **Advanced Visualization**: Creating professional visualizations with **ggplot2**.  
-- **Real-World Applications**: Hands-on projects and exercises for practice.  
+> *"Learn the language by writing it: 45 scripts, 5,912 lines of annotated R, one dataset, zero shortcuts."*
 
 ---
 
-## 📂 Repository Structure  
+## Course map
 
-### Section 1: Core Programming Principles 🧩  
-Learn the basics of R programming, including variables, loops, and logical operations.
-
-**Files:**  
-- `variables (S1).R` — Introduction to variables.  
-- `Logical_Values (S1).R` — Working with logical values.  
-- `LOOP(WHILE) (S1).R` — Using `while` loops in R.  
-- `Practice_with_Loops_While_and_for_(in) (S1).R` — Loop exercises with `while` and `for`.  
-- `Conditional_Statment_IF_Else_if_else_in_R (S1).R` — Conditional statements: `if-else`.  
-- `Workspace_Management_with_rm() in R (S1).R` — Managing your workspace in R.  
-- `Extra-rnorm() (S1).R` — Using `rnorm()` for random number generation.  
+| # | Section | Scripts | What you work on |
+|:-:|---------|:-------:|------------------|
+| 00 | [Quickstart](00-quickstart/) 🎯 | 1 | Average revenue by country in a few lines |
+| 01 | [Core Programming Principles](01-core-programming/) 🧩 | 11 | Types, logicals, `if/else`, `while` / `for`, simulation |
+| 02 | [Fundamentals of R](02-fundamentals/) 🚀 | 5 | Vectors, `[]`, vectorization, custom functions |
+| 03 | [Matrices & Advanced Operations](03-matrices/) 🧮 | 8 | Basketball statistics with matrices |
+| 04 | [Data Frames & Analysis](04-data-frames/) 📊 | 10 | Import, filter, merge, EDA, `qplot()` |
+| 05 | [Advanced Visualization with ggplot2](05-ggplot2/) 📈 | 10 | Layers, facets, themes on 562 movies |
 
 ---
 
-### Section 2: Fundamentals of R 🚀  
-Explore vectors, square brackets for subsetting, and functions in R.
+## Learning path
 
-**Files:**  
-- `Vectors (S2).R` — Creating and working with vectors.  
-- `Vectorized_Operations_in_R (S2).R` — Performing vectorized operations.  
-- `Functions_in_R (S2).R` — Defining and using functions in R.  
-- `Advanced_Usage_of_[]_square_Brackets_in_R (S2).R` — Subsetting data using `[]`.  
-- `Data_Visualization_with_ggplot2_in_R (S2).R` — Introduction to ggplot2 visualization.  
-- `The_Power_of_Vectorized_Operations_in_R (S2).R` — Efficient data operations with vectors.  
+```
+ Quickstart ──► Core Programming ──► Fundamentals ──► Matrices ──► Data Frames ──► ggplot2
+   (00)            variables            vectors         matrix         import          layers
+                   logicals             [] subsets      algebra        filter          facets
+                   if / else            vectorized      naming         merge           stats
+                   while / for          functions       subsetting     EDA, qplot      themes
+```
 
----
-
-### Section 3: Matrices and Advanced Operations 🧮  
-Work with matrices, naming dimensions, and performing operations.
-
-**Files:**  
-- `Working_with_Matrices_in_R (S3).R` — Creating and manipulating matrices.  
-- `Naming_Dimensions_in_Matrices_and_Vectors (S3).R` — Naming rows and columns.  
-- `Advanced_Matrix_Operations_in_R (S3).R` — Performing advanced operations with matrices.  
-- `Subsetting_in_R (S3).R` — Subsetting matrices and data.  
-- `Basketball_Matrix_Operations (S3).R` — Analyzing basketball data with matrices.  
-- `s4-BasketballData (S3).R` — Basketball matrix project data.  
+Each section builds on the previous one: vectors from Section 2 become the columns of the matrices in Section 3, matrices lead into data frames in Section 4, and data frames feed the ggplot2 charts in Section 5.
 
 ---
 
-### Section 4: Data Frames and Analysis 📊  
-Learn to work with data frames for data analysis and manipulation.
+## Script tour
 
-**Files:**  
-- `Basic_Operations_with_Data_Frames (S4).R` — Performing operations on data frames.  
-- `Filtering_Data_Frames_in_R (S4).R` — Filtering rows in data frames.  
-- `Building_Data_Frames_in_R (S4).R` — Creating and building data frames.  
-- `Merging_Data_Frames_in_R (S4).R` — Merging and combining data frames.  
-- `Data_Import_and_Exploration_in_R (S4).R` — Importing and exploring datasets.  
-- `CountryRegionVectors (S4).R` — Handling country–region datasets.  
-- `Demographic-Data (S4).R` — Analyzing demographic data.  
-- `Visualization_in_R_with_qplot() (S4).R` — Creating quick plots using `qplot()`.  
-- `Advanced_Visualization_With_qplot_in_R (S4).R` — Advanced customizations for `qplot()`.  
+<details>
+<summary>🧩 <b>Section 1 — Core Programming Principles</b> (11 scripts)</summary>
+
+| Script | Topic |
+|---|---|
+| [`using-the-console.R`](01-core-programming/using-the-console.R) | Using the console in RStudio |
+| [`my-first-script.R`](01-core-programming/my-first-script.R) | Data types in R |
+| [`variables.R`](01-core-programming/variables.R) | Basic data types and variables |
+| [`practice-with-variables.R`](01-core-programming/practice-with-variables.R) | Exercise: assigning variables |
+| [`logical-values.R`](01-core-programming/logical-values.R) | Comparison and logical operators |
+| [`conditional-if-else.R`](01-core-programming/conditional-if-else.R) | Conditional statements: `if`, `else if`, `else` |
+| [`while-loop.R`](01-core-programming/while-loop.R) | Understanding the `while` loop |
+| [`practice-while-and-for-loops.R`](01-core-programming/practice-while-and-for-loops.R) | Loops: `while` and `for` |
+| [`law-of-large-numbers.R`](01-core-programming/law-of-large-numbers.R) | Law of large numbers, simulated |
+| [`extra-rnorm.R`](01-core-programming/extra-rnorm.R) | Random numbers with `rnorm()` |
+| [`workspace-management-rm.R`](01-core-programming/workspace-management-rm.R) | Workspace management with `rm()` |
+
+</details>
+
+<details>
+<summary>🚀 <b>Section 2 — Fundamentals of R</b> (5 scripts)</summary>
+
+| Script | Topic |
+|---|---|
+| [`vectors.R`](02-fundamentals/vectors.R) | Understanding vectors |
+| [`square-brackets.R`](02-fundamentals/square-brackets.R) | Using `[]` brackets |
+| [`advanced-square-brackets.R`](02-fundamentals/advanced-square-brackets.R) | Advanced `[]` usage |
+| [`vectorized-operations.R`](02-fundamentals/vectorized-operations.R) | The power of vectorized operations |
+| [`functions.R`](02-fundamentals/functions.R) | Functions in R |
+
+</details>
+
+<details>
+<summary>🧮 <b>Section 3 — Matrices & Advanced Operations</b> (8 scripts)</summary>
+
+| Script | Topic |
+|---|---|
+| [`working-with-matrices.R`](03-matrices/working-with-matrices.R) | Working with matrices |
+| [`naming-dimensions.R`](03-matrices/naming-dimensions.R) | Naming dimensions in matrices and vectors |
+| [`advanced-matrix-operations.R`](03-matrices/advanced-matrix-operations.R) | Advanced matrix operations |
+| [`subsetting.R`](03-matrices/subsetting.R) | Subsetting |
+| [`basketball-data.R`](03-matrices/basketball-data.R) | Course project: basketball data setup |
+| [`basketball-matrix-operations.R`](03-matrices/basketball-matrix-operations.R) | Course project: matrix operations on basketball data |
+| [`colnames-rownames-extra-viz.R`](03-matrices/colnames-rownames-extra-viz.R) | `colnames()` / `rownames()` plus an extra ggplot2 visualization |
+| [`ggplot2-advanced-customizations.R`](03-matrices/ggplot2-advanced-customizations.R) | Advanced ggplot2 customizations |
+
+</details>
+
+<details>
+<summary>📊 <b>Section 4 — Data Frames & Analysis</b> (10 scripts)</summary>
+
+| Script | Topic |
+|---|---|
+| [`data-import-and-exploration.R`](04-data-frames/data-import-and-exploration.R) | Data import and exploration |
+| [`exploratory-data-analysis.R`](04-data-frames/exploratory-data-analysis.R) | Exploratory data analysis (EDA) |
+| [`building-data-frames.R`](04-data-frames/building-data-frames.R) | Building data frames |
+| [`country-region-vectors.R`](04-data-frames/country-region-vectors.R) | Helper vectors (country, region) for the demographic exercises |
+| [`dollar-sign-operator.R`](04-data-frames/dollar-sign-operator.R) | Using the `$` sign |
+| [`filtering-data-frames.R`](04-data-frames/filtering-data-frames.R) | Filtering data frames |
+| [`merging-data-frames.R`](04-data-frames/merging-data-frames.R) | Merging data frames |
+| [`intro-to-qplot.R`](04-data-frames/intro-to-qplot.R) | Introduction to `qplot()` |
+| [`qplot-visualization.R`](04-data-frames/qplot-visualization.R) | Visualization with `qplot()` |
+| [`advanced-qplot-visualization.R`](04-data-frames/advanced-qplot-visualization.R) | Advanced visualization with `qplot()` |
+
+</details>
+
+<details>
+<summary>📈 <b>Section 5 — Advanced Visualization with ggplot2</b> (10 scripts)</summary>
+
+| Script | Topic |
+|---|---|
+| [`data-preparation-and-cleaning.R`](05-ggplot2/data-preparation-and-cleaning.R) | Data preparation and cleaning |
+| [`plotting-with-layers.R`](05-ggplot2/plotting-with-layers.R) | Plotting with layers |
+| [`layer-creation.R`](05-ggplot2/layer-creation.R) | Layer creation |
+| [`mapping-vs-setting.R`](05-ggplot2/mapping-vs-setting.R) | Mapping vs setting aesthetics |
+| [`overriding-aesthetics.R`](05-ggplot2/overriding-aesthetics.R) | Overriding aesthetics |
+| [`statistical-transformations.R`](05-ggplot2/statistical-transformations.R) | Statistical transformations |
+| [`facets.R`](05-ggplot2/facets.R) | Using facets |
+| [`histograms-and-density.R`](05-ggplot2/histograms-and-density.R) | Histograms and density charts |
+| [`coordinates.R`](05-ggplot2/coordinates.R) | Coordinates |
+| [`themes.R`](05-ggplot2/themes.R) | Perfecting plots with themes |
+
+</details>
 
 ---
 
-### Section 5: Advanced Visualization with ggplot2 📈  
-Master advanced visualization techniques using **ggplot2**.
+## Featured: the ggplot2 workflow
 
-**Files:**  
-- `ggplot2 - Plotting_with_Layers_in_R (S5).R` — Adding layers to ggplot visualizations.  
-- `Histograms_and_Density_Charts_in_R (S5).R` — Creating histograms and density charts.  
-- `Mapping_vs_Setting_in_ggplot2 (S5).R` — Understanding mapping vs. setting aesthetics.  
-- `Overriding_Aesthetics_in_ggplot2 (S5).R` — Customizing aesthetics in ggplot2.  
-- `Perfecting_By_Adding_Themes_in_ggplot2 (S5).R` — Adding themes for polished visuals.  
-- `Layer_Creation (S5).R` — Building layered visualizations step-by-step.  
-- `Coordinates_in_R_ggplot2 (S5).R` — Working with coordinate systems.  
-- `Statistical_Transformations_in_R (S5).R` — Adding statistical transformations to plots.  
-- `Movie-Ratings (S5).R` — Movie ratings visualization project.  
-- `Section6-Grammar-Of-Graphics (S5).pdf` — Documentation on the grammar of graphics.  
+Section 5 walks through the grammar of graphics on **562 films** (7 genres, 2007–2011) with critic ratings, audience ratings and budgets.
+
+| Dimension | Detail |
+|-----------|--------|
+| **Dataset** | [`data/movie-ratings.csv`](data/movie-ratings.csv): Film · Genre · Rotten Tomatoes % · Audience % · Budget · Year |
+| **Concepts** | Data → aesthetics → geometries → statistics → facets → coordinates → themes |
+| **Reference** | [Grammar of Graphics (PDF)](docs/grammar-of-graphics.pdf) |
+
+<details>
+<summary>📈 Sample from <code>05-ggplot2/facets.R</code></summary>
+
+```r
+library(ggplot2)
+movies <- read.csv("data/movie-ratings.csv")
+colnames(movies) <- c("Film", "Genre", "CriticRating", "AudienceRating", "BudgetMillions", "Year")
+
+v <- ggplot(data = movies, aes(x = BudgetMillions))
+
+v + geom_histogram(binwidth = 10, aes(fill = Genre), colour = "black") +
+  facet_wrap(~Genre) +
+  ggtitle("Histogram Faceted by Genre") +
+  theme_minimal()
+```
+
+</details>
 
 ---
 
-## 🚀 How to Use  
+## Repository layout
 
-1. Clone this repository to your local machine:  
+```
+R-Programming-A-Z/
+├── 00-quickstart/          # short warm-up script
+├── 01-core-programming/    # one folder per course section,
+├── 02-fundamentals/        #   each with its own README
+├── 03-matrices/
+├── 04-data-frames/
+├── 05-ggplot2/
+├── data/                   # datasets used by the scripts
+├── docs/                   # reference material
+├── assets/                 # README banner
+├── .github/workflows/      # CI: syntax check for every R script
+└── R-Programming-A-Z.Rproj
+```
 
-   ```bash
-   git clone https://github.com/evgeniimatveev/R-Programming-A-Z.git
-   cd R-Programming-A-Z
-   ```
-   
-- Open the project in RStudio or your preferred IDE.
+**Why a single `main`?** This repo used to keep every section on its own branch. Everything now lives on `main`, and the original branch history is preserved in the commit graph.
 
-- Run the scripts section by section to practice and explore the concepts.
+---
 
-## 📧 Feedback
-- If you have any suggestions, questions, or feedback, feel free to open an Issue.
-- Let’s grow and learn together! 🚀
+## Quick start
 
-## 👨‍💻 Author
-- **Evgenii Matveev**
-- **Data Analyst** | **R Programming Enthusiast**
+```bash
+git clone https://github.com/evgeniimatveev/R-Programming-A-Z.git
+cd R-Programming-A-Z
+```
+
+1. Open **`R-Programming-A-Z.Rproj`** in RStudio. It sets the working directory to the repo root, which the scripts rely on (e.g. `data/movie-ratings.csv`).
+2. Install the package once: `install.packages("ggplot2")`
+3. Work through the sections in order, running each script top to bottom.
+
+---
+
+## Continuous integration
+
+Every push and pull request runs [`r-check.yml`](.github/workflows/r-check.yml):
+
+| Check | What it catches |
+|-------|-----------------|
+| **Parse every `.R` file** | Syntax errors |
+| **Absolute path scan** | Hard-coded paths such as `C:/Users/...` |
+| **File-name hygiene** | Spaces in file names |
+
+Scripts are teaching material: CI verifies that they parse, it does not execute them end to end.
+
+---
+
+## Known limitations
+
+- Section 4 scripts load their dataset with `file.choose()`. The course's demographic CSV is **not included** here.
+- `qplot()` is deprecated in recent ggplot2 releases but kept because it is part of the course.
+
+---
+
+## Tech stack
+
+`R` · `RStudio` · `ggplot2` · `GitHub Actions`
+
+---
+
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*
