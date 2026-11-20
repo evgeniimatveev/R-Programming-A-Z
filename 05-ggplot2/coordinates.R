@@ -14,11 +14,11 @@ library(ggplot2)
 
 # Set and verify the working directory where your files are stored
 getwd()  # Check current working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/R A-Z")  # Set your working directory
+# Working directory: open R-Programming-A-Z.Rproj so paths are relative to the repo root
 getwd()  # Verify the updated working directory
 
 # Import dataset
-movies <- read.csv("Movie-Ratings (S5).csv")
+movies <- read.csv("data/movie-ratings.csv")
 
 # Rename columns for better clarity
 colnames(movies) <- c("Film", "Genre", "CriticRating", "AudienceRating", "BudgetMillions", "Year")

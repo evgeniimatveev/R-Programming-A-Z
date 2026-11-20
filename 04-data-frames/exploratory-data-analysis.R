@@ -24,7 +24,7 @@ print(head(data))  # Display the first 6 rows
 
 # --- 🛠 Key Insight:
 # Use `getwd()` and `setwd("path")` to control file paths. Example:
-setwd("C:/Users/GAMING/OneDrive/Dokumente/R A-Z")  # Set directory
+# Working directory: open R-Programming-A-Z.Rproj so paths are relative to the repo root
 print(getwd())  # Confirm the current directory
 
 # ===============================================

@@ -7,7 +7,7 @@
 library(ggplot2)  # Load ggplot2 library for visualization
 
 # Load the dataset (adjust path accordingly)
-movies <- read.csv("Movie-Ratings (S5).csv")
+movies <- read.csv("data/movie-ratings.csv")
 
 # Inspect the data
 head(movies)         # First few rows

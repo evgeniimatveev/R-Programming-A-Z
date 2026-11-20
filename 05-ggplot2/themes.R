@@ -12,13 +12,13 @@
 # Install and load required library
 library(ggplot2)
 getwd()  # Check current working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/R A-Z")  # Set your working directory
+# Working directory: open R-Programming-A-Z.Rproj so paths are relative to the repo root
 getwd()  # Verify the updated working directory
 
 
 
 # 🔹 Load Movie Ratings dataset
-movies <- read.csv("Movie-Ratings (S5).csv")
+movies <- read.csv("data/movie-ratings.csv")
 
 # Check structure of the dataset
 str(movies)

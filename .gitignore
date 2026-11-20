@@ -1,0 +1,18 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rapp.history
+
+# Outputs written by the course scripts
+cleaned_data.csv
+filtered_data.csv
+Merged_Data.csv
+Cleaned_Movie_Ratings.csv
+Rplots.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

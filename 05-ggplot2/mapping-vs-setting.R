@@ -17,7 +17,7 @@
 library(ggplot2)
 
 # Import data
-movies <- read.csv("Movie-Ratings (S5).csv")
+movies <- read.csv("data/movie-ratings.csv")
 
 # Rename columns for clarity
 colnames(movies) <- c("Film", "Genre", "CriticRatings", "AudienceRatings", "BudgetmMillion", "Year")

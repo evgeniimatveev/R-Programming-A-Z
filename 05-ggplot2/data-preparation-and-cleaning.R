@@ -5,13 +5,13 @@
 # --- 🛠 Step 1: Set Your Working Directory
 # Set and verify the working directory where your files are stored
 getwd()  # Check current working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/R A-Z")  # Set your working directory
+# Working directory: open R-Programming-A-Z.Rproj so paths are relative to the repo root
 getwd()  # Verify the updated working directory
 
 # ===============================================
 # 🛠 Step 2: Importing Data
 # Load the dataset into R using `read.csv()`
-movies <- read.csv("Movie-Ratings (S5).csv")  
+movies <- read.csv("data/movie-ratings.csv")  
 
 # Preview the dataset
 head(movies)   # View the first few rows of the dataset
