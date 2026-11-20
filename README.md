@@ -204,7 +204,13 @@ Every push and pull request runs [`r-check.yml`](.github/workflows/r-check.yml):
 | **Absolute path scan** | Hard-coded paths such as `C:/Users/...` |
 | **File-name hygiene** | Spaces in file names |
 
-Scripts are teaching material: CI verifies that they parse, it does not execute them end to end.
+### Run every script (manual)
+
+A second workflow, [`r-run-scripts.yml`](.github/workflows/r-run-scripts.yml), executes the scripts with `Rscript` and reports pass/fail per script in the Job Summary. It never runs automatically: open **Actions → R script smoke run (manual) → Run workflow**.
+
+- Scripts that need interactive input (`file.choose()`, `readline()`) are skipped.
+- `03-matrices` scripts are run after `basketball-data.R`, as in the course.
+- Last full run: **37 of 37 runnable scripts pass, 8 skipped** (see the workflow runs for details).
 
 ---
 

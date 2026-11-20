@@ -1,6 +1,10 @@
 # Load ggplot2 library
 library(ggplot2)
 
+# --- Setup (added so this script runs on its own): load the data and name the columns
+movies <- read.csv("data/movie-ratings.csv")
+colnames(movies) <- c("Film", "Genre", "CriticRatings", "AudienceRatings", "BudgetMillion", "Year")
+
 # ========================================================
 # Part 1: Base Layer Creation 🛠
 # ========================================================

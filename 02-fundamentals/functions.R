@@ -18,7 +18,7 @@
 
 # --- 🛠 Example 1: Commonly used built-in functions
 # Generate a vector
-?x <- c(10, 15, 20, 25, 30)
+x <- c(10, 15, 20, 25, 30)
 
 # Mathematical functions
 print(sqrt(x))  # Square root: [1] 3.162278 3.872983 4.472136 5.000000 5.477226
