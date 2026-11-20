@@ -1,16 +1,20 @@
-# Section 3: Matrices & Advanced Operations 🧮
+# 🧮 Section 3: Matrices & Advanced Operations
 
 Matrices, naming dimensions, subsetting and a basketball-statistics project.
 
-| Script | Topic |
-|---|---|
-| [`working-with-matrices.R`](working-with-matrices.R) | Creating and manipulating matrices |
-| [`naming-dimensions.R`](naming-dimensions.R) | Naming rows and columns |
-| [`advanced-matrix-operations.R`](advanced-matrix-operations.R) | Advanced matrix operations |
-| [`subsetting.R`](subsetting.R) | Subsetting matrices |
-| [`basketball-data.R`](basketball-data.R) | Basketball project: data setup |
-| [`basketball-matrix-operations.R`](basketball-matrix-operations.R) | Basketball project: matrix analysis |
-| [`colnames-rownames-extra-viz.R`](colnames-rownames-extra-viz.R) | `colnames()` / `rownames()` plus extra ggplot2 visualization |
-| [`ggplot2-advanced-customizations.R`](ggplot2-advanced-customizations.R) | Advanced ggplot2 customizations |
+| # | Script | Topic |
+|:-:|--------|-------|
+| 1 | [`working-with-matrices.R`](working-with-matrices.R) | Working with matrices |
+| 2 | [`naming-dimensions.R`](naming-dimensions.R) | Naming dimensions in matrices and vectors |
+| 3 | [`advanced-matrix-operations.R`](advanced-matrix-operations.R) | Advanced matrix operations |
+| 4 | [`subsetting.R`](subsetting.R) | Subsetting |
+| 5 | [`basketball-data.R`](basketball-data.R) | Course project: basketball data setup |
+| 6 | [`basketball-matrix-operations.R`](basketball-matrix-operations.R) | Course project: matrix operations on basketball data |
+| 7 | [`colnames-rownames-extra-viz.R`](colnames-rownames-extra-viz.R) | `colnames()` / `rownames()` plus an extra ggplot2 visualization |
+| 8 | [`ggplot2-advanced-customizations.R`](ggplot2-advanced-customizations.R) | Advanced ggplot2 customizations |
 
-[← Back to course map](../README.md)
+---
+
+[← Fundamentals of R](../02-fundamentals/) &nbsp;·&nbsp; [Data Frames & Analysis →](../04-data-frames/)
+
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*

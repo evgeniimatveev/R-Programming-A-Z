@@ -1,13 +1,17 @@
-# Section 2: Fundamentals of R 🚀
+# 🚀 Section 2: Fundamentals of R
 
 Vectors, square-bracket subsetting, vectorized operations and functions.
 
-| Script | Topic |
-|---|---|
-| [`vectors.R`](vectors.R) | Creating and working with vectors |
-| [`square-brackets.R`](square-brackets.R) | Using `[]` to subset |
-| [`advanced-square-brackets.R`](advanced-square-brackets.R) | Advanced `[]` usage |
-| [`vectorized-operations.R`](vectorized-operations.R) | The power of vectorized operations |
-| [`functions.R`](functions.R) | Defining and using functions |
+| # | Script | Topic |
+|:-:|--------|-------|
+| 1 | [`vectors.R`](vectors.R) | Understanding vectors |
+| 2 | [`square-brackets.R`](square-brackets.R) | Using `[]` brackets |
+| 3 | [`advanced-square-brackets.R`](advanced-square-brackets.R) | Advanced `[]` usage |
+| 4 | [`vectorized-operations.R`](vectorized-operations.R) | The power of vectorized operations |
+| 5 | [`functions.R`](functions.R) | Functions in R |
 
-[← Back to course map](../README.md)
+---
+
+[← Core Programming Principles](../01-core-programming/) &nbsp;·&nbsp; [Matrices & Advanced Operations →](../03-matrices/)
+
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*

@@ -29,7 +29,7 @@ jobs:
       - name: Parse every R script
         shell: Rscript {0}
         run: |
-          files <- list.files(".", pattern = "\.R$", recursive = TRUE, full.names = TRUE)
+          files <- list.files(".", pattern = "[.]R$", recursive = TRUE, full.names = TRUE)
           failed <- character()
           for (f in files) {
             res <- try(parse(f, encoding = "UTF-8"), silent = TRUE)

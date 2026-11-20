@@ -1,19 +1,23 @@
-# Section 1: Core Programming Principles 🧩
+# 🧩 Section 1: Core Programming Principles
 
-The basics of R: variables, logical values, conditionals and loops.
+Variables, data types, logical operators, conditionals and loops.
 
-| Script | Topic |
-|---|---|
-| [`using-the-console.R`](using-the-console.R) | Working in the R console |
-| [`my-first-script.R`](my-first-script.R) | First script |
-| [`variables.R`](variables.R) | Introduction to variables |
-| [`practice-with-variables.R`](practice-with-variables.R) | Practice with variables |
-| [`logical-values.R`](logical-values.R) | Working with logical values |
-| [`conditional-if-else.R`](conditional-if-else.R) | `if` / `else if` / `else` |
-| [`while-loop.R`](while-loop.R) | `while` loops |
-| [`practice-while-and-for-loops.R`](practice-while-and-for-loops.R) | Loop exercises with `while` and `for` |
-| [`law-of-large-numbers.R`](law-of-large-numbers.R) | Law of large numbers, simulated in R |
-| [`extra-rnorm.R`](extra-rnorm.R) | Random numbers with `rnorm()` |
-| [`workspace-management-rm.R`](workspace-management-rm.R) | Managing the workspace with `rm()` |
+| # | Script | Topic |
+|:-:|--------|-------|
+| 1 | [`using-the-console.R`](using-the-console.R) | Using the console in RStudio |
+| 2 | [`my-first-script.R`](my-first-script.R) | Data types in R |
+| 3 | [`variables.R`](variables.R) | Basic data types and variables |
+| 4 | [`practice-with-variables.R`](practice-with-variables.R) | Exercise: assigning variables |
+| 5 | [`logical-values.R`](logical-values.R) | Comparison and logical operators |
+| 6 | [`conditional-if-else.R`](conditional-if-else.R) | Conditional statements: `if`, `else if`, `else` |
+| 7 | [`while-loop.R`](while-loop.R) | Understanding the `while` loop |
+| 8 | [`practice-while-and-for-loops.R`](practice-while-and-for-loops.R) | Loops: `while` and `for` |
+| 9 | [`law-of-large-numbers.R`](law-of-large-numbers.R) | Law of large numbers, simulated |
+| 10 | [`extra-rnorm.R`](extra-rnorm.R) | Random numbers with `rnorm()` |
+| 11 | [`workspace-management-rm.R`](workspace-management-rm.R) | Workspace management with `rm()` |
 
-[← Back to course map](../README.md)
+---
+
+[← Course map](../README.md) &nbsp;·&nbsp; [Fundamentals of R →](../02-fundamentals/)
+
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*
